@@ -1,0 +1,64 @@
+body{
+  font-family: 'Prompt', sans-serif;
+  margin: 2% 15%
+}
+
+/* nav bar ------------------*/
+.nav{
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo{
+ font-size: 2rem;
+}
+
+.menu{
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+}
+
+li{
+  padding: 10px;
+}
+
+/* content ------------------*/
+.content{
+  margin: 0% 15%
+}
+
+.tagline
+{
+  font-size: 1.5rem;
+  color: gray;
+}
+
+h3{
+  font-size: 9rem;
+  margin: 0%;
+  padding: 0%;
+  line-height: 170px;
+}
+
+span{
+  color: rgb(178, 226, 178);
+}
+
+.h2{
+  margin: 0%;
+  padding: 0%;
+}
+
+/* beer ------------------*/
+.wrapper{
+ position: relative;
+}
+
+img{
+  width: 40%;
+  height:60%;
+  position: absolute;
+  top: 15%;
+  left:20%;
+}
